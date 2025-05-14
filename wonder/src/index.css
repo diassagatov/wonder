@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* For the dragging state */
+.dragging {
+  background-color: #f0f9ff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* For the drag handle */
+.drag-handle:hover {
+  cursor: grab;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
